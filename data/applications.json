@@ -3,7 +3,7 @@
     "id": "2e3e28e5-8cab-436e-8f07-4fc1ae4c0c11",
     "companyName": "Electrifuel Pvt. Ltd",
     "jobRole": "Software Engineer",
-    "status": "Rejected"
+    "status": "Interview"
   },
   {
     "id": "edb2603e-1367-4953-b659-50883879aa37",
@@ -18,9 +18,15 @@
     "status": "Interview"
   },
   {
-    "id": "fbcd7459-762a-4ff2-9b2a-40fc02601976",
-    "companyName": "Electrifuel Pvt. Ltd",
+    "id": "15d835a1-57de-4649-91c1-7d70e77b98f8",
+    "companyName": "microsoft",
+    "jobRole": "UI developer",
+    "status": "Interview"
+  },
+  {
+    "id": "9409a5dc-3bb7-46b1-9801-f6d322f5c579",
+    "companyName": "Electrifuel",
     "jobRole": "database engineer",
-    "status": "Applied"
+    "status": "Interview"
   }
 ]

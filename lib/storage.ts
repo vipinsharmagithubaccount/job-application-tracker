@@ -8,6 +8,10 @@ const dataFile = path.join(dataDirectory, "applications.json");
 
 const blobPath = "applications.json";
 
+function useBlobStorage() {
+  return Boolean(process.env.BLOB_STORE_ID);
+}
+
 async function getLocalApplications(): Promise<JobApplication[]> {
   await fs.mkdir(dataDirectory, { recursive: true });
 
@@ -60,12 +64,13 @@ async function saveBlobApplications(
     {
       access: "private",
       allowOverwrite: true,
+      contentType: "application/json",
     }
   );
 }
 
 export async function getApplications(): Promise<JobApplication[]> {
-  if (process.env.VERCEL === "1") {
+  if (useBlobStorage()) {
     return getBlobApplications();
   }
 
@@ -75,7 +80,7 @@ export async function getApplications(): Promise<JobApplication[]> {
 export async function saveApplications(
   applications: JobApplication[]
 ): Promise<void> {
-  if (process.env.VERCEL === "1") {
+  if (useBlobStorage()) {
     await saveBlobApplications(applications);
     return;
   }
