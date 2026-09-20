@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2e3e28e5-8cab-436e-8f07-4fc1ae4c0c11",
+    "companyName": "Electrifuel Pvt. Ltd",
+    "jobRole": "Software Engineer",
+    "status": "Rejected"
+  },
+  {
+    "id": "edb2603e-1367-4953-b659-50883879aa37",
+    "companyName": "Google ",
+    "jobRole": "Full stack developer",
+    "status": "Selected"
+  },
+  {
+    "id": "adf7fbcd-3166-4baa-a3ae-b97956c38d7b",
+    "companyName": "Amazon",
+    "jobRole": "Frontend developer",
+    "status": "Interview"
+  },
+  {
+    "id": "fbcd7459-762a-4ff2-9b2a-40fc02601976",
+    "companyName": "Electrifuel Pvt. Ltd",
+    "jobRole": "database engineer",
+    "status": "Applied"
+  }
+]
